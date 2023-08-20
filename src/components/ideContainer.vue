@@ -78,7 +78,7 @@ const compiled = computed(() => {
 });
 
 const endOfQuest = computed(() => {
-  return step.value >= levelsObj.value.length;
+  return step.value >= levels.length;
 });
 </script>
 
